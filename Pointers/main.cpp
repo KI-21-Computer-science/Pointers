@@ -28,7 +28,7 @@ int main()
 {
     int* p = new int { 10 }; // создание объекта типа int в куче через оператор new
 
-    std::cout << "Adress of p: " << p << std::endl; // выводим адрес указателя
+    std::cout << "Address of p: " << p << std::endl; // выводим адрес указателя
     std::cout << "Value of p: " << *p << std::endl; // выводим значение, которое лежит по адресу указателя в памяти через разименовывание (*p)
 
     int* array = nullptr;
